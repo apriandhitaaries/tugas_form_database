@@ -18,4 +18,4 @@ if ($result) {
 mysqli_close($koneksi);
 ?>
 
-<a href="home.html"><input type="button" value="Kembali"></a>
+<a href="index.html"><input type="button" value="Kembali"></a>

@@ -13,3 +13,6 @@ if ($result) {
 }
 
 mysqli_close($koneksi);
+?>
+
+<br><a href="index.html"><input type="button" value="Kembali"></a>

@@ -17,7 +17,7 @@ $saldo_tujuan = $row['saldo'];
 
 if ($saldo_asal < $nominal) {
     echo "Saldo tidak mencukupi <br>";
-    echo '<a href="home.html"><input type="button" value="Kembali"></a>';
+    echo '<a href="index.html"><input type="button" value="Kembali"></a>';
     exit();
 }
 
@@ -42,4 +42,4 @@ if ($result) {
 mysqli_close($koneksi);
 ?>
 
-<br><a href="home.html"><input type="button" value="Kembali"></a>
+<br><a href="index.html"><input type="button" value="Kembali"></a>
